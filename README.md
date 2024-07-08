@@ -1,47 +1,7 @@
-<h1 align="center">alfa-leetcode-api</h1>
-<div align="center">
-
-### The API for retrieving your LeetCode profile & Problems statistics
-
-<img src="https://img.shields.io/badge/License-MIT-green.svg"/>
-<img src="https://img.shields.io/npm/v/npm.svg?logo=nodedotjs"/>
-
-![TypeScript](https://img.shields.io/badge/typetcript-%2320232a.svg?style=for-the-badge&logo=typescript&logoColor=%fff)
-![Node.js](https://img.shields.io/badge/Node.js-%2320232a?style=for-the-badge&logo=node.js&logoColor=43853D)
-![Express.js](https://img.shields.io/badge/express-%2320232a.svg?style=for-the-badge&logo=express&logoColor=%23F7DF1E)
-![REST API](https://img.shields.io/badge/RestApi-%2320232a.svg?style=for-the-badge&logo=restAPI&logoColor=%23F7DF1E)
-
-</div>
 
 ## About ✨
 
-At First, I struggled to find proper documentation for the `leetcode.com/graphql`. After scouring various articles about the LeetCode public API, I still couldn't find the comprehensive documentation I was looking for. Fueled by the desire to fill this gap I created **alfa-leetcode-api**.
-
-**alfa-leetcode-api** is a custom solution born out of the need for a well-documented and detailed LeetCode API. This project is designed to provide developers with endpoints that offer insights into a user's profile, badges, solved questions, contest details, contest history, submissions, and also daily questions, selected problem, list of problems.
-
-## API URL 🌐
-
-```
-https://alfa-leetcode-api.onrender.com/
-```
-
-## Run with docker 🐳
-
-```
-docker run -p 3000:3000 alfaarghya/alfa-leetcode-api:2.0.1
-```
-
-## Wanna Contribute 🤔??
-
-follow this documentation => <a href="CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a>
-
-### 💡 Rate Limit
-
-I've implemented a rate limit to prevent any potential server overload issues.
-
-### ‼️ Note
-
-During development, it's recommended to utilize the API locally. To do so, follow this documentation => <a href="CONTRIBUTING.md" target="_blank">Local Deploy</a>
+`leetcode.com/graphql`. 
 
 ## Endpoints 🚀
 
@@ -85,24 +45,3 @@ During development, it's recommended to utilize the API locally. To do so, follo
 | _Limited Problems_          | `/problems?limit=number`                     | Get a list of a specified **_number_** of problems.                              | <a href="./public/demo/demo13.png" target="_blank">click here</a> |
 | _Filter Problems_           | `/problems?tags=tag1+tag2`                   | Get a list of problems based on selected **_tags_**.                             | <a href="./public/demo/demo14.png" target="_blank">click here</a> |
 | _Filter & Limited Problems_ | `/problems?tags=tag1+tag2+tag3&limit=number` | Get a list of a specified **_number_** of problems based on selected **_tags_**. | <a href="./public/demo/demo15.png" target="_blank">click here</a> |
-
-## Author ✒️
-
-- [@alfaarghya](https://www.github.com/alfaarghya)
-
-## Contributor ✏️
-
-| Contributor                                        | Contribution                                                                     |
-| :------------------------------------------------- | :------------------------------------------------------------------------------- |
-| [@aryanpingle](https://www.github.com/aryanpingle) | AC submission                                                                    |
-| [@jamesh48](https://www.github.com/jamesh48)       | TypeScript Refactoring                                                           |
-| [@kvqn](https://www.github.com/kvqn)               | PORT environment variable                                                        |
-| [@changchunlei](https://github.com/changchunlei)   | New Endpoints - language stats, integrated user profile, contest and discussions |
-| [@merakesh99](https://github.com/merakesh99)       | Hot reload issue solved                                                          |
-
-## Connect with me 📲
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%2320232a.svg?style=normal&logo=linkedIn&logoColor=%230077B5)](https://linkedin.com/in/alfaarghya)
-[![Twitter](https://img.shields.io/badge/twitter-%2320232a.svg?style=normal&logo=twitter&logoColor=%230077B5)](https://twitter.com/alfaarghya)
-[![Instagram](https://img.shields.io/badge/Instagram-%2320232a.svg?style=normal&logo=instagram&logoColor=white)](https://www.instagram.com/alfaarghya)
-[![LeetCode](https://img.shields.io/badge/LeetCode-%2320232a.svg?style=normal&logo=LeetCode&logoColor=%FFA116)](https://leetcode.com/alfaarghya/)

@@ -11,13 +11,13 @@
   first open your CLI and clone the repo locally. But don't forget put your github username in **username**
 
   ```bash
-  git clone https://github.com/username/alfa-leetcode-api.git
+  git clone https://github.com/username/leetcode-api.git
   ```
 
 - #### 👋🏽 Go to the project folder
 
   ```bash
-  cd alfa-leetcode-api
+  cd leetcode-api
   ```
 
 - #### 👋🏽 Go to the project folder
@@ -36,13 +36,13 @@
   first open your CLI and clone the repo locally. But don't forget put your github username in **username**
 
   ```bash
-  git clone https://github.com/username/alfa-leetcode-api.git
+  git clone https://github.com/username/leetcode-api.git
   ```
 
 - #### 👋🏽 Go to the project folder
 
   ```bash
-  cd alfa-leetcode-api
+  cd leetcode-api
   ```
 
 - #### 🚀 Install Require modules
